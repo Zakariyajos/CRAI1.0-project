@@ -1,0 +1,176 @@
+<html>
+<head>
+	<title>Portal Login</title>
+</head>
+<style type="text/css">
+	body {
+	
+		background: linear-gradient(to right, gray , blue ,black);
+		background-color: #00ff99;
+	}
+	.main {
+    min-height: calc(100vh - 90px);
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+	input{
+		text-align:center;
+		box-shadow: 10px;
+		 vertical-align: middle;
+    white-space: normal;
+    background: 0 0;
+    line-height: 1
+	}
+	option{
+		background-color: green;
+		
+
+	}
+	form{
+		align-items:center;
+		text-decoration:blink;
+	}
+	input.hover(background-color: )	{
+        background-color: gray;
+	}
+	input[type=text], select {
+   width:40%;
+   padding: ;
+   margin: 8px 16px;
+   display:inline-block ;
+   border: 2px solid #4caf50;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding:5px;
+}
+input[type=file], select {
+   width: 40%;
+   padding: ;
+   position: center;	
+   margin: 8px 16px;
+   display:block ;
+   border: 2px solid #4caf50;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding:5px;
+
+}
+input[type=E-mail], select {
+   width:40%;
+   padding: ;
+   margin: 8px 16px;
+   display: ;
+   border: 2px solid #4caf50;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding:5px;
+}
+input[type=password], select {
+   width: 40%;
+   padding: ;
+   position: center;	
+   margin: 8px 16px;
+   display: ;
+   border: 2px solid #4caf50;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding:5px;
+}
+
+input[type=date], select {
+   width: 40%;
+   padding: ;
+   position: center;	
+   margin: 8px 16px;
+   display: ;
+   border: 2px solid #1ccf50;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding:5px;
+}
+input[type=submit:hover]  {
+	background-color: #45a089;
+	position:center ;
+}
+button{
+color: gray;
+background:linear-gradient(to top, black, red);
+background-color: black;
+border-style: solid , green;
+width: 
+border-radius:100%;
+width: 10%;
+height: 20px;
+border-collapse: round;
+cursor: pointer;
+
+}
+
+option{
+   width: 40%;
+   padding: ;
+   position: center;	
+   margin: 8px 16px;
+   display: ;
+   border: 2px solid #4cca50;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding:5px;
+   color: #233a;
+}
+
+h1 {
+background-color: cyan;
+
+}
+a{
+	text-decoration: none;
+	text-decoration-color: red;
+    color: rgb(001, 002, 011);
+    position: fixed;
+    text-align: right;
+}
+</style>
+
+<body>
+
+	<h1><center>Personal Information</center></h1>
+	
+	<main>
+	<form action="zaka.php"><center>
+		<input type="text" placeholder="First name"></input>
+         <input type="text" placeholder="Surname"></input><br>
+         <input type="E-mail" placeholder="E-mail">
+         <input type="password" placeholder="password"></input><br  />
+         <input type="text" placeholder="Program of study">
+         <input type="date" name="DOB" accept="date" placeholder="D/O/B"><br  />
+         <input type="file" name="passport"accept="image/*">
+     </center>
+ </form>
+</main>
+
+      
+        
+	<select name="dropdown">
+		<--------FACULTY-------->
+			<option>COLLEGE OF BASIC MEDICAL SCIENCES</option>
+			<option>FACULTY OF AGRICULTURAL SCIENCES</option>
+			<option>FACUNTY OF ART & SOCIAL SCIENCES</option>
+		<option>FACULTY OF COMPUTING</option>
+		<option>FACULTY OF LIBRARY SCIENCES</option>
+		<option>FACULTY OF MANAGEMENT SCIENCES</option>
+			<option>FACULTY OF SCIENCE</option>
+	</select><BR  />
+	   <button name="submit" onclick="" required >submit
+	 </button>
+
+<a href="website.html" align="right">Back to home</a>
+</body>
+</html>
